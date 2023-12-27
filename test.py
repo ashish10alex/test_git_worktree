@@ -12,6 +12,6 @@ def algo_division(a, b, c):
     return multiply_three_numbers(a, b, c) / add_three_numbers(a, b, c)
 
 def algo_substraction(a, b, c):
-    """ weird substraction algo """
+    """ weird substraction """
     return multiply_three_numbers(a, b, c) - add_three_numbers(a, b, c)
 
