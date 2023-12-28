@@ -40,7 +40,7 @@ def binary_search(list, item):
 
     return None
 
-def binary_search_recursive(list, item):
+def recursive_binary_search(list, item):
     """ recursive binary search algorithm """
     if len(list) == 0:
         return None
@@ -52,7 +52,7 @@ def binary_search_recursive(list, item):
         return mid
 
     if guess > item:
-        return binary_search_recursive(list[:mid], item)
+        return recursive_binary_search(list[:mid], item)
 
     else:
-        return binary_search_recursive(list[mid + 1:], item)
+        return recursive_binary_search(list[mid + 1:], item)
