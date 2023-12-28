@@ -39,3 +39,20 @@ def binary_search(list, item):
             low = mid + 1
 
     return None
+
+def binary_search_recursive(list, item):
+    """ recursive binary search algorithm """
+    if len(list) == 0:
+        return None
+
+    mid = int(len(list) / 2)
+    guess = list[mid]
+
+    if guess == item:
+        return mid
+
+    if guess > item:
+        return binary_search_recursive(list[:mid], item)
+
+    else:
+        return binary_search_recursive(list[mid + 1:], item)
