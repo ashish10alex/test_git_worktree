@@ -35,3 +35,8 @@ def recursiveBinarySearch(list, item):
 
     else:
         return recursiveBinarySearch(list[mid + 1:], item)
+
+
+# add some test case for the above fucntions
+assert binary_search([1, 2, 3, 4, 5], 3) == 2
+assert recursiveBinarySearch([1, 2, 3, 4, 5], 3) == 2
