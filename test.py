@@ -43,7 +43,7 @@ assert binary_search([], 3) == None, "binary search algorithm failed, should ret
 assert binary_search([1, 3, 5, 7, 9], 3) == 1, "binary search algorithm failed, should return 1"
 assert binary_search([1, 3, 5, 7, 9], 9) == 4, "binary search algorithm failed, should return 4"
 
-assert recursiveBinarySearch([1, 2, 3, 4, 5], 3) == 2
-assert recursiveBinarySearch([], 2) == None
-assert recursiveBinarySearch([1, 3, 5, 7, 9], 3) == 1
-assert recursiveBinarySearch([1, 3, 5, 7, 9], 9) == 4
+assert recursiveBinarySearch([1, 2, 3, 4, 5], 3) == 2, "binary search algo failed, should return 2"
+assert recursiveBinarySearch([], 2) == None, "binary search algo failed, should return None"
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 3) == 1, "binary search algo failed, should return 1"
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 9) == 4, "binary search algo failed, should return 4"
