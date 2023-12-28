@@ -39,5 +39,10 @@ def recursiveBinarySearch(list, item):
 
 # testing
 assert binary_search([1, 2, 3, 4, 5], 3) == 2
+assert binary_search([], 3) == None
+assert binary_search([1, 3, 5, 7, 9], 3) == 1
+
 assert recursiveBinarySearch([1, 2, 3, 4, 5], 3) == 2
 assert recursiveBinarySearch([], 2) == None
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 3) == 1
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 9) == 4
