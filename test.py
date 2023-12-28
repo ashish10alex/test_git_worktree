@@ -40,3 +40,9 @@ def recursiveBinarySearch(list, item):
 # add some test case for the above fucntions
 assert binary_search([1, 2, 3, 4, 5], 3) == 2
 assert recursiveBinarySearch([1, 2, 3, 4, 5], 3) == 2
+
+# add test cases for the above fundtions
+assert binary_search([1, 3, 5, 7, 9], 3) == 1
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 3) == 1
+assert recursiveBinarySearch([1, 3, 5, 7, 9], 9) == 4
+assert binary_search([], 3) == None
