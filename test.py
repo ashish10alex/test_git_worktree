@@ -15,3 +15,7 @@ def algo_substraction(a, b, c):
     """ weird substraction """
     return multiply_three_numbers(a, b, c) - add_three_numbers(a, b, c)
 
+
+def algo_addition(a, b, c):
+    """ weird addition """
+    return multiply_three_numbers(a, b, c) + add_three_numbers(a, b, c)
